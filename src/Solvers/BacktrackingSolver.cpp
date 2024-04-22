@@ -2,6 +2,7 @@
 #include <iostream>
 
 void BacktrackingSolver::solve() {
+    solutions = 0;
     placeQueens(0);
     std::cout << "Total solutions using Backtracking: " << solutions << std::endl;
 }
@@ -22,3 +23,4 @@ void BacktrackingSolver::placeQueens(int row) {
         }
     }
 }
+

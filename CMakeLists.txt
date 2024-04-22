@@ -5,17 +5,12 @@ set(CMAKE_OSX_ARCHITECTURES "x86_64")
 list(APPEND CMAKE_FRAMEWORK_PATH /Library/Frameworks) #Mac, why not auto?
 set(CMAKE_CXX_STANDARD 11)
 
-find_package(Imagine REQUIRED COMPONENTS Graphics)
+set(SOURCE_FILES main.cpp)
+add_executable(NQueens_run ${SOURCE_FILES})
 
-add_executable( NQueens
-        main.cpp
+include_directories(src)
+add_subdirectory(src)
 
-        src/Solver.h
-        src/Solvers/BacktrackingSolver.cpp src/Solvers/BacktrackingSolver.h
-
-        src/Board.cpp src/Board.h
-
-)
-target_link_libraries(NQueens Imagine::Graphics)
+target_link_libraries(NQueens_run NQueens_lib)
 
 add_subdirectory(Google_tests)

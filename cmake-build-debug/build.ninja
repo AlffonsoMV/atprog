@@ -41,62 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target NQueens
+# Object build statements for EXECUTABLE target NQueens_run
 
 
 #############################################
-# Order-only phony target for NQueens
+# Order-only phony target for NQueens_run
 
-build cmake_object_order_depends_target_NQueens: phony || CMakeFiles/NQueens.dir
+build cmake_object_order_depends_target_NQueens_run: phony || cmake_object_order_depends_target_NQueens_lib
 
-build CMakeFiles/NQueens.dir/main.cpp.o: CXX_COMPILER__NQueens_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/main.cpp || cmake_object_order_depends_target_NQueens
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DSRCDIR=/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet
-  DEP_FILE = CMakeFiles/NQueens.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -fPIC
-  INCLUDES = -isystem /Library/Frameworks/Imagine.framework/Versions/Current/Resources/include -isystem /Users/alfonsomateos/anaconda3/include/qt -isystem /Users/alfonsomateos/anaconda3/include/qt/QtWidgets -isystem /Users/alfonsomateos/anaconda3/include/qt/QtGui -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/alfonsomateos/anaconda3/include/qt/QtCore -isystem /Users/alfonsomateos/anaconda3/./mkspecs/macx-clang -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
-  OBJECT_DIR = CMakeFiles/NQueens.dir
-  OBJECT_FILE_DIR = CMakeFiles/NQueens.dir
-
-build CMakeFiles/NQueens.dir/src/Solvers/BacktrackingSolver.cpp.o: CXX_COMPILER__NQueens_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src/Solvers/BacktrackingSolver.cpp || cmake_object_order_depends_target_NQueens
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DSRCDIR=/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet
-  DEP_FILE = CMakeFiles/NQueens.dir/src/Solvers/BacktrackingSolver.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -fPIC
-  INCLUDES = -isystem /Library/Frameworks/Imagine.framework/Versions/Current/Resources/include -isystem /Users/alfonsomateos/anaconda3/include/qt -isystem /Users/alfonsomateos/anaconda3/include/qt/QtWidgets -isystem /Users/alfonsomateos/anaconda3/include/qt/QtGui -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/alfonsomateos/anaconda3/include/qt/QtCore -isystem /Users/alfonsomateos/anaconda3/./mkspecs/macx-clang -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
-  OBJECT_DIR = CMakeFiles/NQueens.dir
-  OBJECT_FILE_DIR = CMakeFiles/NQueens.dir/src/Solvers
-
-build CMakeFiles/NQueens.dir/src/Board.cpp.o: CXX_COMPILER__NQueens_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src/Board.cpp || cmake_object_order_depends_target_NQueens
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DSRCDIR=/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet
-  DEP_FILE = CMakeFiles/NQueens.dir/src/Board.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -fPIC
-  INCLUDES = -isystem /Library/Frameworks/Imagine.framework/Versions/Current/Resources/include -isystem /Users/alfonsomateos/anaconda3/include/qt -isystem /Users/alfonsomateos/anaconda3/include/qt/QtWidgets -isystem /Users/alfonsomateos/anaconda3/include/qt/QtGui -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/alfonsomateos/anaconda3/include/qt/QtCore -isystem /Users/alfonsomateos/anaconda3/./mkspecs/macx-clang -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
-  OBJECT_DIR = CMakeFiles/NQueens.dir
-  OBJECT_FILE_DIR = CMakeFiles/NQueens.dir/src
-
-build CMakeFiles/NQueens.dir/src/Utils.cpp.o: CXX_COMPILER__NQueens_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src/Utils.cpp || cmake_object_order_depends_target_NQueens
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DSRCDIR=/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet
-  DEP_FILE = CMakeFiles/NQueens.dir/src/Utils.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -fPIC
-  INCLUDES = -isystem /Library/Frameworks/Imagine.framework/Versions/Current/Resources/include -isystem /Users/alfonsomateos/anaconda3/include/qt -isystem /Users/alfonsomateos/anaconda3/include/qt/QtWidgets -isystem /Users/alfonsomateos/anaconda3/include/qt/QtGui -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/alfonsomateos/anaconda3/include/qt/QtCore -isystem /Users/alfonsomateos/anaconda3/./mkspecs/macx-clang -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
-  OBJECT_DIR = CMakeFiles/NQueens.dir
-  OBJECT_FILE_DIR = CMakeFiles/NQueens.dir/src
+build CMakeFiles/NQueens_run.dir/main.cpp.o: CXX_COMPILER__NQueens_run_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/main.cpp || cmake_object_order_depends_target_NQueens_run
+  DEP_FILE = CMakeFiles/NQueens_run.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src
+  OBJECT_DIR = CMakeFiles/NQueens_run.dir
+  OBJECT_FILE_DIR = CMakeFiles/NQueens_run.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target NQueens
+# Link build statements for EXECUTABLE target NQueens_run
 
 
 #############################################
-# Link the executable NQueens
+# Link the executable NQueens_run
 
-build NQueens: CXX_EXECUTABLE_LINKER__NQueens_Debug CMakeFiles/NQueens.dir/main.cpp.o CMakeFiles/NQueens.dir/src/Solvers/BacktrackingSolver.cpp.o CMakeFiles/NQueens.dir/src/Board.cpp.o CMakeFiles/NQueens.dir/src/Utils.cpp.o | /Library/Frameworks/Imagine.framework/Versions/Current/Resources/lib/libImagineGraphics.a /Users/alfonsomateos/anaconda3/lib/libQt5Widgets.5.15.2.dylib /Users/alfonsomateos/anaconda3/lib/libQt5Gui.5.15.2.dylib /Users/alfonsomateos/anaconda3/lib/libQt5Core.5.15.2.dylib /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd
+build NQueens_run: CXX_EXECUTABLE_LINKER__NQueens_run_Debug CMakeFiles/NQueens_run.dir/main.cpp.o | src/libNQueens_lib.a || src/libNQueens_lib.a
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  LINK_LIBRARIES = -Wl,-rpath,/Users/alfonsomateos/anaconda3/lib  /Library/Frameworks/Imagine.framework/Versions/Current/Resources/lib/libImagineGraphics.a  /Users/alfonsomateos/anaconda3/lib/libQt5Widgets.5.15.2.dylib  /Users/alfonsomateos/anaconda3/lib/libQt5Gui.5.15.2.dylib  /Users/alfonsomateos/anaconda3/lib/libQt5Core.5.15.2.dylib  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd
-  OBJECT_DIR = CMakeFiles/NQueens.dir
+  LINK_LIBRARIES = src/libNQueens_lib.a
+  OBJECT_DIR = CMakeFiles/NQueens_run.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = NQueens
-  TARGET_PDB = NQueens.dbg
+  TARGET_FILE = NQueens_run
+  TARGET_PDB = NQueens_run.dbg
 
 
 #############################################
@@ -169,18 +144,135 @@ build install/strip: phony CMakeFiles/install/strip.util
 # =============================================================================
 
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target NQueens_lib
+
+
+#############################################
+# Order-only phony target for NQueens_lib
+
+build cmake_object_order_depends_target_NQueens_lib: phony || src/CMakeFiles/NQueens_lib.dir
+
+build src/CMakeFiles/NQueens_lib.dir/Board.cpp.o: CXX_COMPILER__NQueens_lib_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src/Board.cpp || cmake_object_order_depends_target_NQueens_lib
+  DEP_FILE = src/CMakeFiles/NQueens_lib.dir/Board.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src
+  OBJECT_DIR = src/CMakeFiles/NQueens_lib.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/NQueens_lib.dir
+
+build src/CMakeFiles/NQueens_lib.dir/Solvers/BacktrackingSolver.cpp.o: CXX_COMPILER__NQueens_lib_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src/Solvers/BacktrackingSolver.cpp || cmake_object_order_depends_target_NQueens_lib
+  DEP_FILE = src/CMakeFiles/NQueens_lib.dir/Solvers/BacktrackingSolver.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src
+  OBJECT_DIR = src/CMakeFiles/NQueens_lib.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/NQueens_lib.dir/Solvers
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target NQueens_lib
+
+
+#############################################
+# Link the static library src/libNQueens_lib.a
+
+build src/libNQueens_lib.a: CXX_STATIC_LIBRARY_LINKER__NQueens_lib_Debug src/CMakeFiles/NQueens_lib.dir/Board.cpp.o src/CMakeFiles/NQueens_lib.dir/Solvers/BacktrackingSolver.cpp.o
+  ARCH_FLAGS = -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = src/CMakeFiles/NQueens_lib.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/libNQueens_lib.a
+  TARGET_PDB = NQueens_lib.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/cmake-build-debug/src && /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src/edit_cache: phony src/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/cmake-build-debug/src && /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet -B/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build src/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build src/CMakeFiles/install.util: CUSTOM_COMMAND src/all
+  COMMAND = cd /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/cmake-build-debug/src && /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src/install: phony src/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build src/CMakeFiles/install/local.util: CUSTOM_COMMAND src/all
+  COMMAND = cd /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/cmake-build-debug/src && /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src/install/local: phony src/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build src/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/all
+  COMMAND = cd /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/cmake-build-debug/src && /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build src/install/strip: phony src/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Google_Tests_run
 
 
 #############################################
 # Order-only phony target for Google_Tests_run
 
-build cmake_object_order_depends_target_Google_Tests_run: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+build cmake_object_order_depends_target_Google_Tests_run: phony || cmake_object_order_depends_target_NQueens_lib cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
 
 build Google_tests/CMakeFiles/Google_Tests_run.dir/UtilsTests.cpp.o: CXX_COMPILER__Google_Tests_run_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/UtilsTests.cpp || cmake_object_order_depends_target_Google_Tests_run
   DEP_FILE = Google_tests/CMakeFiles/Google_Tests_run.dir/UtilsTests.cpp.o.d
   FLAGS = -g -std=gnu++14 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  INCLUDES = -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/include -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest
+  INCLUDES = -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/include -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest
+  OBJECT_DIR = Google_tests/CMakeFiles/Google_Tests_run.dir
+  OBJECT_FILE_DIR = Google_tests/CMakeFiles/Google_Tests_run.dir
+
+build Google_tests/CMakeFiles/Google_Tests_run.dir/SolversTests.cpp.o: CXX_COMPILER__Google_Tests_run_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/SolversTests.cpp || cmake_object_order_depends_target_Google_Tests_run
+  DEP_FILE = Google_tests/CMakeFiles/Google_Tests_run.dir/SolversTests.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/include -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest
   OBJECT_DIR = Google_tests/CMakeFiles/Google_Tests_run.dir
   OBJECT_FILE_DIR = Google_tests/CMakeFiles/Google_Tests_run.dir
 
@@ -192,9 +284,9 @@ build Google_tests/CMakeFiles/Google_Tests_run.dir/UtilsTests.cpp.o: CXX_COMPILE
 #############################################
 # Link the executable Google_tests/Google_Tests_run
 
-build Google_tests/Google_Tests_run: CXX_EXECUTABLE_LINKER__Google_Tests_run_Debug Google_tests/CMakeFiles/Google_Tests_run.dir/UtilsTests.cpp.o | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+build Google_tests/Google_Tests_run: CXX_EXECUTABLE_LINKER__Google_Tests_run_Debug Google_tests/CMakeFiles/Google_Tests_run.dir/UtilsTests.cpp.o Google_tests/CMakeFiles/Google_Tests_run.dir/SolversTests.cpp.o | src/libNQueens_lib.a lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a src/libNQueens_lib.a
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
-  LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a
+  LINK_LIBRARIES = src/libNQueens_lib.a  lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a
   OBJECT_DIR = Google_tests/CMakeFiles/Google_Tests_run.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -353,7 +445,7 @@ build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depen
 build Google_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COMPILER__gmock_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
   DEP_FILE = Google_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.d
   FLAGS = -g -std=c++14 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics  -DGTEST_HAS_PTHREAD=1
-  INCLUDES = -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/include -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/include -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest
+  INCLUDES = -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/include -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/include -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest
   OBJECT_DIR = Google_tests/lib/googlemock/CMakeFiles/gmock.dir
   OBJECT_FILE_DIR = Google_tests/lib/googlemock/CMakeFiles/gmock.dir/src
 
@@ -386,7 +478,7 @@ build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_
 build Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: CXX_COMPILER__gmock_main_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
   DEP_FILE = Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d
   FLAGS = -g -std=c++14 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics  -DGTEST_HAS_PTHREAD=1
-  INCLUDES = -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/include -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/include -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest
+  INCLUDES = -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/include -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/include -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest
   OBJECT_DIR = Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir
   OBJECT_FILE_DIR = Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/src
 
@@ -489,7 +581,7 @@ build cmake_object_order_depends_target_gtest: phony || Google_tests/lib/googlet
 build Google_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
   DEP_FILE = Google_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d
   FLAGS = -g -std=c++14 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics  -DGTEST_HAS_PTHREAD=1
-  INCLUDES = -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/include -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest
+  INCLUDES = -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/include -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest
   OBJECT_DIR = Google_tests/lib/googletest/CMakeFiles/gtest.dir
   OBJECT_FILE_DIR = Google_tests/lib/googletest/CMakeFiles/gtest.dir/src
 
@@ -522,7 +614,7 @@ build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_
 build Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   DEP_FILE = Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d
   FLAGS = -g -std=c++14 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics  -DGTEST_HAS_PTHREAD=1
-  INCLUDES = -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/include -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest
+  INCLUDES = -I/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/include -isystem /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest
   OBJECT_DIR = Google_tests/lib/googletest/CMakeFiles/gtest_main.dir
   OBJECT_FILE_DIR = Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src
 
@@ -613,6 +705,8 @@ build Google_tests/lib/googletest/install/strip: phony Google_tests/lib/googlete
 
 build Google_Tests_run: phony Google_tests/Google_Tests_run
 
+build NQueens_lib: phony src/libNQueens_lib.a
+
 build gmock: phony lib/libgmock.a
 
 build gmock_main: phony lib/libgmock_main.a
@@ -620,6 +714,8 @@ build gmock_main: phony lib/libgmock_main.a
 build gtest: phony lib/libgtest.a
 
 build gtest_main: phony lib/libgtest_main.a
+
+build libNQueens_lib.a: phony src/libNQueens_lib.a
 
 build libgmock.a: phony lib/libgmock.a
 
@@ -637,7 +733,7 @@ build libgtest_main.a: phony lib/libgtest_main.a
 #############################################
 # Folder: /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/cmake-build-debug
 
-build all: phony NQueens Google_tests/all
+build all: phony NQueens_run src/all Google_tests/all
 
 # =============================================================================
 
@@ -668,20 +764,27 @@ build Google_tests/lib/googlemock/all: phony lib/libgmock.a lib/libgmock_main.a 
 build Google_tests/lib/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 
 # =============================================================================
+
+#############################################
+# Folder: /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/cmake-build-debug/src
+
+build src/all: phony src/libNQueens_lib.a
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Library/Frameworks/Imagine.framework/Versions/Current/Resources/CMake/ImagineConfig.cmake /Library/Frameworks/Imagine.framework/Versions/Current/Resources/CMake/UseImagineCommon.cmake /Library/Frameworks/Imagine.framework/Versions/Current/Resources/CMake/UseImagineGraphics.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDependentOption.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeParseArguments.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckIncludeFile.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckLibraryExists.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindOpenGL.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindPackageMessage.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindThreads.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/GNUInstallDirs.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/cmake/gmock.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/cmake/gmock_main.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/Config.cmake.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/gtest.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/gtest_main.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/internal_utils.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5/Qt5Config.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5/Qt5ConfigVersion.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5/Qt5ModuleLocation.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake CMakeCache.txt CMakeFiles/3.27.0/CMakeCCompiler.cmake CMakeFiles/3.27.0/CMakeCXXCompiler.cmake CMakeFiles/3.27.0/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDependentOption.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckIncludeFile.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckLibraryExists.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindPackageMessage.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindThreads.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/GNUInstallDirs.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/cmake/gmock.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/cmake/gmock_main.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/Config.cmake.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/gtest.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/gtest_main.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/internal_utils.cmake /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.0/CMakeCCompiler.cmake CMakeFiles/3.27.0/CMakeCXXCompiler.cmake CMakeFiles/3.27.0/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Library/Frameworks/Imagine.framework/Versions/Current/Resources/CMake/ImagineConfig.cmake /Library/Frameworks/Imagine.framework/Versions/Current/Resources/CMake/UseImagineCommon.cmake /Library/Frameworks/Imagine.framework/Versions/Current/Resources/CMake/UseImagineGraphics.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDependentOption.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeParseArguments.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckIncludeFile.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckLibraryExists.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindOpenGL.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindPackageMessage.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindThreads.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/GNUInstallDirs.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/cmake/gmock.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/cmake/gmock_main.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/Config.cmake.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/gtest.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/gtest_main.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/internal_utils.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5/Qt5Config.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5/Qt5ConfigVersion.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5/Qt5ModuleLocation.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /Users/alfonsomateos/anaconda3/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake CMakeCache.txt CMakeFiles/3.27.0/CMakeCCompiler.cmake CMakeFiles/3.27.0/CMakeCXXCompiler.cmake CMakeFiles/3.27.0/CMakeSystem.cmake: phony
+build /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeDependentOption.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckIncludeFile.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CheckLibraryExists.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-C.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/Clang.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Compiler/GNU.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindPackageMessage.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/FindThreads.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/GNUInstallDirs.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-C.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-C.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/Darwin.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/Platform/UnixPaths.cmake /Users/alfonsomateos/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/cmake/gmock.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googlemock/cmake/gmock_main.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/CMakeLists.txt /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/Config.cmake.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/gtest.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/gtest_main.pc.in /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/Google_tests/lib/googletest/cmake/internal_utils.cmake /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.0/CMakeCCompiler.cmake CMakeFiles/3.27.0/CMakeCXXCompiler.cmake CMakeFiles/3.27.0/CMakeSystem.cmake: phony
 
 
 #############################################

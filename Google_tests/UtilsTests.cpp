@@ -1,6 +1,5 @@
 #include "gtest/gtest.h"
 
-
 class UtilsFixture : public ::testing::Test {
 
 protected:
