@@ -1,14 +1,23 @@
-//
-// Created by Alfonso Mateos on 22/4/24.
-//
+#ifndef BOARD_H
+#define BOARD_H
 
-#ifndef TP7_INITIAL_BOARD_H
-#define TP7_INITIAL_BOARD_H
+#include <vector>
 
+using namespace std;
 
 class Board {
+private:
+    int size;
+    vector<vector<bool>> board;
 
+public:
+    Board(int n);
+    bool isSafe(int row, int col) const;
+    void placeQueen(int row, int col);
+    void removeQueen(int row, int col);
+    void printBoard() const;
+
+    int getSize() { return size; };
 };
 
-
-#endif //TP7_INITIAL_BOARD_H
+#endif

@@ -1,11 +1,14 @@
-// Atelier de Programmation Projet - N-Queens Problem
-// Authors: Alfonso & Quang
-
+#include "src/Solvers/BacktrackingSolver.h"
 #include <iostream>
-using namespace std;
-
 
 int main() {
-    cout << "Hello World!" << endl;
-	return 0;
+    int n;
+    std::cout << "Enter the size of the board: ";
+    std::cin >> n;
+
+    Solver *solver = new BacktrackingSolver(n);
+    solver->solve();
+    delete solver;
+
+    return 0;
 }

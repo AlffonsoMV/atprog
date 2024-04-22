@@ -57,13 +57,13 @@ build CMakeFiles/NQueens.dir/main.cpp.o: CXX_COMPILER__NQueens_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/NQueens.dir
   OBJECT_FILE_DIR = CMakeFiles/NQueens.dir
 
-build CMakeFiles/NQueens.dir/src/Solver.cpp.o: CXX_COMPILER__NQueens_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src/Solver.cpp || cmake_object_order_depends_target_NQueens
+build CMakeFiles/NQueens.dir/src/Solvers/BacktrackingSolver.cpp.o: CXX_COMPILER__NQueens_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src/Solvers/BacktrackingSolver.cpp || cmake_object_order_depends_target_NQueens
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DSRCDIR=/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet
-  DEP_FILE = CMakeFiles/NQueens.dir/src/Solver.cpp.o.d
+  DEP_FILE = CMakeFiles/NQueens.dir/src/Solvers/BacktrackingSolver.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -fPIC
   INCLUDES = -isystem /Library/Frameworks/Imagine.framework/Versions/Current/Resources/include -isystem /Users/alfonsomateos/anaconda3/include/qt -isystem /Users/alfonsomateos/anaconda3/include/qt/QtWidgets -isystem /Users/alfonsomateos/anaconda3/include/qt/QtGui -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/alfonsomateos/anaconda3/include/qt/QtCore -isystem /Users/alfonsomateos/anaconda3/./mkspecs/macx-clang -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
   OBJECT_DIR = CMakeFiles/NQueens.dir
-  OBJECT_FILE_DIR = CMakeFiles/NQueens.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/NQueens.dir/src/Solvers
 
 build CMakeFiles/NQueens.dir/src/Board.cpp.o: CXX_COMPILER__NQueens_unscanned_Debug /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/src/Board.cpp || cmake_object_order_depends_target_NQueens
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DSRCDIR=/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet
@@ -89,7 +89,7 @@ build CMakeFiles/NQueens.dir/src/Utils.cpp.o: CXX_COMPILER__NQueens_unscanned_De
 #############################################
 # Link the executable NQueens
 
-build NQueens: CXX_EXECUTABLE_LINKER__NQueens_Debug CMakeFiles/NQueens.dir/main.cpp.o CMakeFiles/NQueens.dir/src/Solver.cpp.o CMakeFiles/NQueens.dir/src/Board.cpp.o CMakeFiles/NQueens.dir/src/Utils.cpp.o | /Library/Frameworks/Imagine.framework/Versions/Current/Resources/lib/libImagineGraphics.a /Users/alfonsomateos/anaconda3/lib/libQt5Widgets.5.15.2.dylib /Users/alfonsomateos/anaconda3/lib/libQt5Gui.5.15.2.dylib /Users/alfonsomateos/anaconda3/lib/libQt5Core.5.15.2.dylib /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd
+build NQueens: CXX_EXECUTABLE_LINKER__NQueens_Debug CMakeFiles/NQueens.dir/main.cpp.o CMakeFiles/NQueens.dir/src/Solvers/BacktrackingSolver.cpp.o CMakeFiles/NQueens.dir/src/Board.cpp.o CMakeFiles/NQueens.dir/src/Utils.cpp.o | /Library/Frameworks/Imagine.framework/Versions/Current/Resources/lib/libImagineGraphics.a /Users/alfonsomateos/anaconda3/lib/libQt5Widgets.5.15.2.dylib /Users/alfonsomateos/anaconda3/lib/libQt5Gui.5.15.2.dylib /Users/alfonsomateos/anaconda3/lib/libQt5Core.5.15.2.dylib /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/alfonsomateos/anaconda3/lib  /Library/Frameworks/Imagine.framework/Versions/Current/Resources/lib/libImagineGraphics.a  /Users/alfonsomateos/anaconda3/lib/libQt5Widgets.5.15.2.dylib  /Users/alfonsomateos/anaconda3/lib/libQt5Gui.5.15.2.dylib  /Users/alfonsomateos/anaconda3/lib/libQt5Core.5.15.2.dylib  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd
   OBJECT_DIR = CMakeFiles/NQueens.dir

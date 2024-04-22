@@ -1,14 +1,16 @@
 # ninja log v5
-2029	2053	1713771112169625000	lib/libgtest_main.a	31a16ee4de0d176c
-7	513	1713771162965340496	Google_tests/CMakeFiles/Google_Tests_run.dir/UtilsTests.cpp.o	89de422b2bb065fc
-1	650	1713771110761687056	Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	8e6b15f9739f195c
-1	1916	1713771112022833337	Google_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	bf83773c62040d75
-316	360	1713769549362318310	NQueens	da580a921f020939
+6	574	1713773121487609641	CMakeFiles/NQueens.dir/src/Board.cpp.o	50752b36b590f0f8
+2	202	1713772605119305389	CMakeFiles/NQueens.dir/src/Utils.cpp.o	747ce6f8a438d27e
 1917	2029	1713771112146173000	lib/libgtest.a	bef1a3256fb568a3
-5	315	1713769549314806238	CMakeFiles/NQueens.dir/main.cpp.o	a98dcb0f2ca20fa9
-0	162	1713771836788178417	build.ninja	1d0b5dcd79a72c1a
-10	56	1713771841360810319	Google_tests/Google_Tests_run	12296040d1b20558
-8	571	1713771851436613232	Google_tests/CMakeFiles/Google_Tests_run.dir/UtilsTests.cpp.o	89de422b2bb065fc
-572	630	1713771851499827456	Google_tests/Google_Tests_run	12296040d1b20558
-8	537	1713771857177828739	Google_tests/CMakeFiles/Google_Tests_run.dir/UtilsTests.cpp.o	89de422b2bb065fc
 537	593	1713771857238533612	Google_tests/Google_Tests_run	12296040d1b20558
+5	332	1713773586809375551	CMakeFiles/NQueens.dir/main.cpp.o	a98dcb0f2ca20fa9
+1	219	1713773642155583013	build.ninja	1d0b5dcd79a72c1a
+574	626	1713773121542289858	NQueens	15e32ac0f7248976
+0	613	1713772605529408566	CMakeFiles/NQueens.dir/src/Solver.cpp.o	328b9b14ed9c6329
+1	1916	1713771112022833337	Google_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	bf83773c62040d75
+2029	2053	1713771112169625000	lib/libgtest_main.a	31a16ee4de0d176c
+1	650	1713771110761687056	Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	8e6b15f9739f195c
+8	537	1713771857177828739	Google_tests/CMakeFiles/Google_Tests_run.dir/UtilsTests.cpp.o	89de422b2bb065fc
+6	328	1713773644895857145	CMakeFiles/NQueens.dir/main.cpp.o	a98dcb0f2ca20fa9
+6	330	1713773644899113424	CMakeFiles/NQueens.dir/src/Solvers/BacktrackingSolver.cpp.o	96694d682c62b094
+331	373	1713773644943137900	NQueens	1aeced52761a0538
