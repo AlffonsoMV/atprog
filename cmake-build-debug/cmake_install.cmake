@@ -1,4 +1,4 @@
-# Install script for directory: /Users/alfonsomateos/Documents/ENPC/PROGR/Tp7_Initial
+# Install script for directory: /Users/alfonsomateos/Documents/PONTS/ATPROG/Projet
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,13 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/cmake-build-debug/Google_tests/cmake_install.cmake")
+
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/alfonsomateos/Documents/ENPC/PROGR/Tp7_Initial/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/alfonsomateos/Documents/PONTS/ATPROG/Projet/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

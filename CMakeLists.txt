@@ -7,10 +7,12 @@ set(CMAKE_CXX_STANDARD 11)
 
 find_package(Imagine REQUIRED COMPONENTS Graphics)
 
-add_executable( Tron
-    main.cpp snake.cpp utils.cpp
-    utils.h snake.h
-                consts.h
-                board.h
-                )
-target_link_libraries(Tron Imagine::Graphics)
+add_executable( NQueens
+        main.cpp
+        src/Solver.cpp src/Solver.h
+        src/Board.cpp src/Board.h
+        src/Utils.cpp src/Utils.h
+)
+target_link_libraries(NQueens Imagine::Graphics)
+
+add_subdirectory(Google_tests)
