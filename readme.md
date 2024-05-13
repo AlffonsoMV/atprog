@@ -5,3 +5,5 @@ Projet réalisé dans le cadre du cours Atelier de Programmation, matière dirig
 Auteurs :
 - Alfonso
 - Quang
+
+Ducprog cHANGES
