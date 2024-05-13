@@ -10,9 +10,9 @@ Widget::Widget(QWidget *parent)
     ui->setupUi(this);
 
     scene = new Scene(this);
-    scene-> setSceneRect(-250,-300,500,600);
+    scene-> setSceneRect(-250,-300,500,00);
 
-    QGraphicsPixmapItem * pixItem = new QGraphicsPixmapItem(QPixmap(":/images/sky3.png"));
+    QGraphicsPixmapItem * pixItem = new QGraphicsPixmapItem(QPixmap(":/images/board.png"));
     scene -> addItem(pixItem);
     pixItem->setPos(QPointF(0,0)-QPointF(pixItem->boundingRect().width()/2,pixItem->boundingRect().height()/2));
 

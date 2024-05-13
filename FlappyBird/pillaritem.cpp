@@ -3,8 +3,8 @@
 #include<QGraphicsScene>
 
 PillarItem::PillarItem():
-    topPillar(new QGraphicsPixmapItem(QPixmap(":/images/pillartop.png"))),
-    bottomPillar(new QGraphicsPixmapItem(QPixmap(":/images/pillarbottom.png")))
+    topPillar(new QGraphicsPixmapItem(QPixmap(":/images/queenfin.png"))),
+    bottomPillar(new QGraphicsPixmapItem(QPixmap(":/images/queenfin.png")))
 {
     topPillar -> setPos(QPoint(0,0)-QPoint(topPillar->boundingRect().width()/2,topPillar->boundingRect().height()+60));
     bottomPillar -> setPos(QPointF(0,0)+QPointF(-bottomPillar->boundingRect().width()/2,60));
