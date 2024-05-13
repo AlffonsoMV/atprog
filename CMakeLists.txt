@@ -11,9 +11,7 @@ add_executable(NQueens_run ${SOURCE_FILES})
 include_directories(src)
 add_subdirectory(src)
 
-include_directories(FlappyBird)
-add_subdirectory(FlappyBird)
-
 target_link_libraries(NQueens_run NQueens_lib)
 
 add_subdirectory(Google_tests)
+add_subdirectory(FlappyBird)
