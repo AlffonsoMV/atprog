@@ -2,6 +2,7 @@
 #include "./ui_widget.h"
 #include <QGraphicsPixmapItem>
 #include "pillaritem.h"
+#include "../src/Solvers/BacktrackingSolver.h"
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)

@@ -17,6 +17,7 @@ public:
     void removeQueen(int row, int col);
     void printBoard() const;
 
+    vector<vector<bool>> getBoard() { return board; };
     int getSize() { return size; };
 };
 

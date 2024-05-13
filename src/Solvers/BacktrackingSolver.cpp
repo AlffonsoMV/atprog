@@ -24,3 +24,27 @@ void BacktrackingSolver::placeQueens(int row) {
     }
 }
 
+vector<vector<bool>> BacktrackingSolver::placeQueensOnce(int row) {
+    vector<vector<bool>> b = {};
+    if (row == board.getSize()) {
+        return board.getBoard();
+    }
+
+    for (int col = 0; col < board.getSize(); col++) {
+        if (board.isSafe(row, col)) {
+            board.placeQueen(row, col);
+            b = placeQueensOnce(row + 1);
+            if (!b.empty()) return b;
+            board.removeQueen(row, col);
+        }
+    }
+
+    return {};
+}
+
+
+vector<vector<bool>> BacktrackingSolver::getRandomSolution() {
+    return placeQueensOnce(0);
+}
+
+
