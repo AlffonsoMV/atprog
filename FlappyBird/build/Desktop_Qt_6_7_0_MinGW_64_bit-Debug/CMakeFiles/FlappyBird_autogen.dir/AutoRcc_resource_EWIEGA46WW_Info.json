@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "C:/project Atelier de Prog/FlappyBird/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FlappyBird_autogen",
+	"CMAKE_BINARY_DIR" : "C:/project Atelier de Prog/FlappyBird/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/project Atelier de Prog/FlappyBird/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/project Atelier de Prog/FlappyBird",
+	"CMAKE_SOURCE_DIR" : "C:/project Atelier de Prog/FlappyBird",
+	"INCLUDE_DIR" : "C:/project Atelier de Prog/FlappyBird/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FlappyBird_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/project Atelier de Prog/FlappyBird/images/pillartop.png",
+		"C:/project Atelier de Prog/FlappyBird/images/sky3.png",
+		"C:/project Atelier de Prog/FlappyBird/images/birdfin.png",
+		"C:/project Atelier de Prog/FlappyBird/images/pillarbottom.png"
+	],
+	"LOCK_FILE" : "C:/project Atelier de Prog/FlappyBird/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/FlappyBird_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resource.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.7.0/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/project Atelier de Prog/FlappyBird/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/FlappyBird_autogen.dir/AutoRcc_resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/project Atelier de Prog/FlappyBird/resource.qrc",
+	"VERBOSITY" : 0
+}
