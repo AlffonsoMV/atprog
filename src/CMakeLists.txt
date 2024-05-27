@@ -9,6 +9,10 @@ set(HEADER_FILES
 set(SOURCE_FILES
         Board.cpp
         Solvers/BacktrackingSolver.cpp
+        Solvers/GeneticSolver.cpp
+        Solvers/SimulatedAnnealingSolver.h
+        Solvers/SimulatedAnnealingSolver.cpp
+        Solvers/MinConflictsSolver.cpp
 )
 
 add_library(NQueens_lib STATIC ${SOURCE_FILES} ${HEADER_FILES})

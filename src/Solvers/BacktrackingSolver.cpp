@@ -4,6 +4,15 @@
 void BacktrackingSolver::solve() {
     solutions = 0;
     placeQueens(0);
+
+    vector<int> bestSolution = vector<int>(board.getSize(), -1);
+    for (int i = 0; i < board.getSize(); i++) {
+        bestSolution[i] = i;
+    }
+
+    minConflictsBoard = bestSolution;
+    totalMinConflicts = 0;
+
     std::cout << "Total solutions using Backtracking: " << solutions << std::endl;
 }
 
