@@ -76,7 +76,7 @@ Implements the genetic algorithm:
 
 ## 👥 Authors
 
-- **Quang**
-- **Alfonso Mateos Vicente**
+- **MATEOS VICENTE Alfonso**
+- **BUI Kien Quang**
 
 This project is part of the "Atelier de programmation" course.
