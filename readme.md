@@ -12,7 +12,7 @@ This project is a comprehensive solution to the classic N-Queens problem, develo
 - **`src/Solvers/SimulatedAnnealingSolver.h`**: A solver that uses the simulated annealing algorithm.
 - **`src/Solvers/MinConflictsSolver.h`**: A solver that uses the min-conflicts algorithm.
 - **`src/Solvers/GeneticSolver.h`**: A solver that uses a genetic algorithm.
-- **`Google_tests/SolversTests.cpp`**: Implement 16 tests to verify that the code works properly.
+- **`Google_tests/SolversTests.cpp`**: Implements 16 tests to verify that the code works properly.
 
 ## 🧠 Algorithms Implemented
 
