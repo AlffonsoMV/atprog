@@ -2,9 +2,7 @@
 
 This project is a comprehensive solution to the classic N-Queens problem, developed for the course "Atelier de programmation" by Quang and Alfonso Mateos Vicente. The project features multiple algorithms to solve the N-Queens problem, all implemented in C++.
 
-<div style="text-align: center;">
-  <img src="images/Screenshot.png" alt="Screenshot">
-</div>
+![Screenshot.png](images%2FScreenshot.png)
 
 ## 📁 Project Structure
 

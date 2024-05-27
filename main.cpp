@@ -308,7 +308,7 @@ int main() {
 
     Event ev;
     while (true) {
-        if (changeSolver)
+        if (changeSolver || changeBoardSize)
             drawSolverSelector();
 
         if (changeParameters || changeSolver)
