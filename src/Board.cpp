@@ -52,3 +52,12 @@ void Board::printBoard() const {
         std::cout << std::endl;
     }
 }
+
+int Board::getRow(int col) const {
+    for (int row = 0; row < size; row++) {
+        if (board[row][col]) {
+            return row;
+        }
+    }
+    return -1;
+}

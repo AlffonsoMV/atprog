@@ -16,6 +16,7 @@ public:
     void placeQueen(int row, int col);
     void removeQueen(int row, int col);
     void printBoard() const;
+    int getRow(int col) const;
 
     int getSize() { return size; };
 };
